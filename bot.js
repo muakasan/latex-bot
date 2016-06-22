@@ -11,8 +11,8 @@ var fs = require('fs');
 var Mustache = require('mustache');
 var sys = require('sys');
 var spawn = require('child_process').spawn; 
+var async = require('async');
 
-// Create simple echo bot
 login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function callback (err, api) {
     if(err) return console.error(err);
 
