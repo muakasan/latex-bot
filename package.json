@@ -1,0 +1,25 @@
+{
+  "name": "latex-bot",
+  "version": "1.0.0",
+  "description": "A FB Messenger Bot for Latex",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muakasan/latex-bot.git"
+  },
+  "author": "Aidan San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muakasan/latex-bot/issues"
+  },
+  "homepage": "https://github.com/Muakasan/latex-bot#readme",
+  "dependencies" :
+  {
+    "mustache" :  "2.2.1",
+    "dotenv": "2.2.0",
+    "facebook-chat-api" : "1.1.0"
+  }
+}

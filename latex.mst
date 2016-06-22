@@ -1,0 +1,6 @@
+\documentclass[border = 2pt]{standalone}
+\begin{document}
+$\displaystyle
+{{{equationText}}}
+$
+\end{document}
